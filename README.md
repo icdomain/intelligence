@@ -79,7 +79,6 @@ These are archived records and should not be used as a template for new content.
 |---|---|
 | `strategic-forecasting` | Strategic forecasting reports and analyses |
 | `information-discernment` | Information literacy content for the age of AI |
-| `tourism` | Location and travel content |
 
 ---
 
