@@ -10,9 +10,9 @@ last_modified_at: 2026-04-08
 author: founder
 ---
 
-# Independent Compute Domain
+# Independent Compute Domain Intelligence Bureau
 
-Welcome to the official site of the Independent Compute Domain.
+The ICD Intelligence Bureau is an organization dedicated to fostering intellectual independence and the capacity for autonomous judgment — through structural forecasting and information literacy education.
 
 ## Sections
 

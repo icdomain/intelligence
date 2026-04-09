@@ -10,9 +10,9 @@ last_modified_at: 2026-04-08
 author: founder
 ---
 
-# Independent Compute Domain
+# Independent Compute Domain Intelligence Bureau
 
-ICD公式サイトへようこそ。
+ICD諜報局は構造的な未来予報と情報リテラシー教育を通じて、人々の思想的自立と主体的判断力の醸成を目的とする組織です。
 
 ## セクション
 
