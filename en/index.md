@@ -26,3 +26,6 @@ The ICD Intelligence Bureau is an organization dedicated to fostering intellectu
 {% for post in latest limit:3 %}
 - [{{ post.title }}]({{ post.url | prepend: site.baseurl }}) <time>{{ post.date | date: "%Y-%m-%d" }}</time>
 {% endfor %}
+
+## Prohibited Uses of ICD Content
+ICD expressly prohibits any scraping, ingestion, reproduction, summarization, adaptation, transformation, redistribution, AI training, or derivative use of its content without prior written permission. This includes reposting, script generation, and uploads to platforms such as YouTube.
