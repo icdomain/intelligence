@@ -18,15 +18,18 @@ body {
 
 /* ── Links ── */
 a {
-  color: #999999;
+  color: #a84446;
   text-decoration: none;
   border-bottom: 1px solid #870002;
-  transition: color 0.15s, border-color 0.15s;
+  transition: color 0.15s;
 }
 a:hover {
   color: #eeeeee;
   border-bottom-color: #870002;
 }
+
+/* ── Bold ── */
+strong { color: #cc3333; font-weight: 600; }
 
 /* ── Headings ── */
 h1, h2, h3, h4, h5, h6 {
@@ -49,12 +52,13 @@ h2 {
   padding-left: 0.65em;
 }
 h3 { font-size: 1rem; color: #bbbbbb; }
-h4 { font-size: 0.9rem; color: #999999; text-transform: uppercase; letter-spacing: 0.08em; }
+h4 { font-size: 0.9rem; color: #870002; text-transform: uppercase; letter-spacing: 0.08em; }
 
 /* ── Header ── */
 .site-header {
   background: #111111;
-  border-bottom: 1px solid #870002;
+  border-top: 2px solid #870002;
+  border-bottom: 1px solid #2a0001;
   padding: 0.75rem 1.5rem;
   position: sticky;
   top: 0;
@@ -88,20 +92,21 @@ h4 { font-size: 0.9rem; color: #999999; text-transform: uppercase; letter-spacin
   font-size: 0.75rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #777777;
+  color: #a84446;
   border-bottom: none;
 }
-.site-nav a:hover { color: #870002; }
+.site-nav a:hover { color: #eeeeee; }
 
 .lang-switch a {
   font-size: 0.72rem;
-  color: #555555;
-  border: 1px solid #2a2a2a;
+  color: #870002;
+  border: 1px solid #870002;
   padding: 0.18rem 0.5rem;
 }
 .lang-switch a:hover {
   color: #eeeeee;
-  border-color: #870002;
+  border-color: #cc3333;
+  background: #1a0001;
 }
 
 /* ── Main ── */
@@ -113,12 +118,13 @@ h4 { font-size: 0.9rem; color: #999999; text-transform: uppercase; letter-spacin
 
 /* ── Footer ── */
 .site-footer {
-  border-top: 1px solid #1e1e1e;
+  border-top: 1px solid #2a0001;
   padding: 1rem 1.5rem;
   text-align: center;
-  color: #3a3a3a;
+  color: #870002;
   font-size: 0.72rem;
   margin-top: 4rem;
+  opacity: 0.6;
 }
 
 /* ── Pinned post ── */
@@ -135,17 +141,17 @@ article.pinned-post h3 {
 
 /* ── Code ── */
 code {
-  background: #1a1a1a;
-  color: #cccccc;
+  background: #1a0001;
+  color: #cc9999;
   padding: 0.1em 0.35em;
   font-family: inherit;
   font-size: 0.88em;
-  border: 1px solid #2a2a2a;
+  border: 1px solid #2a0001;
   border-radius: 2px;
 }
 pre {
-  background: #111111;
-  border: 1px solid #2a2a2a;
+  background: #0d0000;
+  border: 1px solid #2a0001;
   border-left: 3px solid #870002;
   padding: 1rem 1.2rem;
   overflow-x: auto;
@@ -155,6 +161,7 @@ pre code {
   background: none;
   border: none;
   padding: 0;
+  color: #cccccc;
   font-size: 0.9em;
 }
 
@@ -164,7 +171,7 @@ blockquote {
   margin: 1.5rem 0;
   padding: 0.6rem 1.2rem;
   color: #888888;
-  background: #111111;
+  background: #110000;
 }
 blockquote p { margin: 0; }
 
@@ -176,7 +183,7 @@ table {
   font-size: 0.88rem;
 }
 th {
-  background: #1a1a1a;
+  background: #1a0001;
   color: #eeeeee;
   text-align: left;
   padding: 0.5rem 0.9rem;
@@ -185,24 +192,26 @@ th {
 }
 td {
   padding: 0.5rem 0.9rem;
-  border-bottom: 1px solid #1e1e1e;
+  border-bottom: 1px solid #1e0001;
 }
-tr:hover td { background: #111111; }
+tr:hover td { background: #110000; }
 
 /* ── Horizontal rule ── */
 hr {
   border: none;
-  border-top: 1px solid #2a2a2a;
+  border-top: 1px solid #2a0001;
   margin: 2.5rem 0;
 }
 
 /* ── Lists ── */
 ul, ol { padding-left: 1.4em; }
 li { margin-bottom: 0.25rem; }
+ul li::marker { color: #870002; }
+ol li::marker { color: #870002; }
 
 /* ── time ── */
 time {
-  color: #555555;
+  color: #870002;
   font-size: 0.82em;
 }
 
@@ -216,5 +225,5 @@ time {
   text-transform: uppercase;
   padding: 0.1rem 0.5rem;
   margin-bottom: 1rem;
-  opacity: 0.8;
+  opacity: 0.85;
 }
