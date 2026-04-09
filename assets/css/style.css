@@ -48,11 +48,48 @@ h1 {
 h2 {
   font-size: 1.2rem;
   letter-spacing: 0.03em;
-  border-left: 3px solid #870002;
-  padding-left: 0.65em;
+  padding-left: 0.75em;
+  position: relative;
 }
-h3 { font-size: 1rem; color: #bbbbbb; }
-h4 { font-size: 0.9rem; color: #870002; text-transform: uppercase; letter-spacing: 0.08em; }
+h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.1em;
+  bottom: 0.1em;
+  width: 5px;
+  background: linear-gradient(to bottom, #870002, #3a0001);
+}
+h3 {
+  font-size: 1rem;
+  color: #bbbbbb;
+  padding-left: 1.1em;
+  position: relative;
+}
+h3::before {
+  content: '▍';
+  position: absolute;
+  left: 0;
+  color: #870002;
+  opacity: 0.7;
+  font-size: 0.8em;
+  top: 0.15em;
+}
+h4 {
+  font-size: 0.9rem;
+  color: #870002;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding-left: 1em;
+  position: relative;
+}
+h4::before {
+  content: '//';
+  position: absolute;
+  left: 0;
+  color: #3a0001;
+  font-weight: 400;
+}
 
 /* ── Header ── */
 .site-header {
