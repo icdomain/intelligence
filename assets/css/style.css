@@ -48,47 +48,26 @@ h1 {
 h2 {
   font-size: 1.2rem;
   letter-spacing: 0.03em;
-  padding-left: 0.75em;
-  position: relative;
-}
-h2::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0.1em;
-  bottom: 0.1em;
-  width: 5px;
-  background: linear-gradient(to bottom, #870002, #3a0001);
+  display: inline-block;
+  background-color: #870002;
+  color: #eeeeee;
+  padding: 0.1em 0.5em;
 }
 h3 {
   font-size: 1rem;
-  color: #bbbbbb;
-  padding-left: 1.1em;
-  position: relative;
-}
-h3::before {
-  content: '▍';
-  position: absolute;
-  left: 0;
-  color: #870002;
-  opacity: 0.7;
-  font-size: 0.8em;
-  top: 0.15em;
+  color: #eeeeee;
+  display: inline-block;
+  background-color: #3a0001;
+  padding: 0.05em 0.4em;
 }
 h4 {
   font-size: 0.9rem;
-  color: #870002;
+  color: #cc9999;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  padding-left: 1em;
-  position: relative;
-}
-h4::before {
-  content: '//';
-  position: absolute;
-  left: 0;
-  color: #3a0001;
-  font-weight: 400;
+  display: inline-block;
+  background-color: #1a0001;
+  padding: 0.05em 0.4em;
 }
 
 /* ── Header ── */
