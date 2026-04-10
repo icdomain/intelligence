@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Background Note for Reading the Future Amid the AI Revolution
+title: "U.S. AI Development Is Prone to Running Out of Control."
 description: Training data volume and quality, China's structural advantage, and the reality of a brakeless development race confronting the United States as hegemonic power.
 permalink: /en/archives/2026/04/09/ai-revolution-reading-future/
 lang: en

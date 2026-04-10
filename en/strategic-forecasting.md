@@ -12,7 +12,7 @@ author: founder
 
 # Strategic Forecasting
 
-## Background Note for Reading the Future Amid the AI Revolution
+## U.S. AI Development Is Prone to Running Out of Control.
 
 {% for post in site.posts %}
   {% if post.lang == "en" and post.url contains "ai-revolution-reading-future" %}
