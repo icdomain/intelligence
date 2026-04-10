@@ -12,7 +12,7 @@ author: founder
 
 # 構造予報
 
-## 固定記事
+## AI革命の只中で未来を読むための背景項
 
 {% for post in site.posts %}
   {% if post.lang == "ja" and post.url contains "ai-revolution-reading-future" %}
