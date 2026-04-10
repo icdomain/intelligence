@@ -38,6 +38,8 @@ Society, rather than pursuing human responsibility, frames events as questions o
 
 In a world where even human value converges upon authority, how are the masses supposed to live?
 
+→ For a chronological primary-source record of the governance documents underlying the arguments made here, see "[Tracking Governance Documents at OpenAI and Anthropic: 2023–2026](/en/archives/2026/04/10/governance-documents-tracking/)."
+
 ## Related Reading
 
 The following works contain arguments that overlap with the thesis of this essay.
