@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AI革命の只中で未来を読むための背景項
+title: 米国のAI開発は暴走しやすい状況にある。
 description: AIの性能を決定づける学習データ、中国の構造的優位、そして覇権国アメリカが直面する開発競争のブレーキ不在という現実を読み解く。
 permalink: /ja/archives/2026/04/09/ai-revolution-reading-future/
 lang: ja
