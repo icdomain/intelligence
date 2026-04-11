@@ -4,6 +4,7 @@ title: Qwen3.5-122B-A10B の能力評価
 description: Alibaba Qwen チームが開発した視覚・言語統合型 MoE モデル Qwen3.5-122B-A10B の AI 能力評価。推論・問題解決で L4 と評価。
 permalink: /ja/archives/2026/04/11/qwen35-122b-a10b-capability-evaluation/
 lang: ja
+alt_lang_url: /en/archives/2026/04/11/qwen35-122b-a10b-capability-evaluation/
 date: 2026-04-11T09:00:00Z
 last_modified_at: 2026-04-11T09:00:00Z
 author: founder
