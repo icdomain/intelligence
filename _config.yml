@@ -1,6 +1,6 @@
 title: Independent Compute Domain
 url: https://icdomain.github.io
-baseurl: /icd-intel
+baseurl: /intelligence
 timezone: Etc/UTC
 future: true
 theme: jekyll-theme-hacker

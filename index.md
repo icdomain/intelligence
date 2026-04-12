@@ -8,21 +8,21 @@ sitemap: false
 <head>
 <meta charset="UTF-8">
 <title>Independent Compute Domain</title>
-<link rel="alternate" hreflang="ja" href="https://icdomain.github.io/icd-intel/ja/">
-<link rel="alternate" hreflang="en" href="https://icdomain.github.io/icd-intel/en/">
-<link rel="alternate" hreflang="x-default" href="https://icdomain.github.io/icd-intel/en/">
+<link rel="alternate" hreflang="ja" href="https://icdomain.github.io/intelligence/ja/">
+<link rel="alternate" hreflang="en" href="https://icdomain.github.io/intelligence/en/">
+<link rel="alternate" hreflang="x-default" href="https://icdomain.github.io/intelligence/en/">
 <meta name="robots" content="noindex">
 <script>
 (function() {
   var chosen = null;
   try { chosen = localStorage.getItem('icd-lang'); } catch(e) {}
   if (chosen === 'ja' || chosen === 'en') {
-    location.replace('/icd-intel/' + chosen + '/');
+    location.replace('/intelligence/' + chosen + '/');
     return;
   }
   var lang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
   var target = lang.indexOf('ja') === 0 ? 'ja' : 'en';
-  location.replace('/icd-intel/' + target + '/');
+  location.replace('/intelligence/' + target + '/');
 })();
 </script>
 </head>
