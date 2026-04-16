@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Independent Compute Domain
-description: Independent Compute Domain 公式サイト
+title: ICD Intelligence Bureau
+description: ICD諜報局公式サイト
 permalink: /ja/
 lang: ja
 alt_lang_url: /en/

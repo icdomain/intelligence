@@ -234,7 +234,7 @@ time {
 /* ── Emblem hero ── */
 .emblem-hero {
   display: block;
-  margin: 3rem auto 2rem;
+  margin: 2rem auto;
   width: 160px;
   max-width: 100%;
   filter: drop-shadow(0 0 18px #870002aa) drop-shadow(0 0 6px #cc333366);

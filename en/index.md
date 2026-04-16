@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Independent Compute Domain
-description: Official site of the Independent Compute Domain
+title: ICD Intelligence Bureau
+description: Official site of the ICD Intelligence Bureau
 permalink: /en/
 lang: en
 alt_lang_url: /ja/
