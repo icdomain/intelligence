@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Tracking Governance Documents at OpenAI and Anthropic: 2023–2026"
-description: A chronological primary-source record of how RSP, Model Spec, and Preparedness Framework evolved from hard stop clauses to their own removal — documenting the attrition of governance in industry documents.
+title: "Tracking Governance Documents at OpenAI and Anthropic: 2023-2026"
+description: A chronological record of RSP, Model Spec, and Preparedness Framework revisions, tracing the trajectory of governance degradation from primary sources until the removal of halt provisions.
 permalink: /en/archives/2026/04/10/governance-documents-tracking/
 lang: en
 alt_lang_url: /ja/archives/2026/04/10/governance-documents-tracking/
@@ -9,80 +9,106 @@ date: 2026-04-10T09:00:00Z
 last_modified_at: 2026-04-10T09:00:00Z
 author: founder
 categories: [strategic-forecasting]
-tags: [ai, governance, openai, anthropic, rsp, model-spec, preparedness-framework, ai-safety]
+tags: [AI, governance, OpenAI, Anthropic, RSP, Model Spec, Preparedness Framework, AI safety]
 ---
 
-This essay serves as the evidentiary companion to "[The AI Revolution Is Already Uncontrollable]({{ site.baseurl }}/en/archives/2026/04/09/ai-revolution-uncontrollable/)," tracking industry governance documents chronologically from primary sources.
+This article is a companion to "[The AI Revolution Is Already Uncontrollable]({{ site.baseurl }}/en/archives/2026/04/09/ai-revolution-uncontrollable/)," tracking the primary sources of governance documents in chronological order.
 
-## Phase 1: "The Dawn of LLMs" — September 19, 2023 – May 7, 2024
+## Period 1: "The Dawn of LLMs" September 19, 2023 — May 7, 2024
 
-The era when LLMs were still chat interfaces without autonomous execution capability.[^1]
+The era when LLMs were still chat interfaces with no autonomous execution capabilities. *
 
 - Anthropic RSP v1.0 (September 19, 2023)
 - OpenAI Preparedness Framework Beta (December 18, 2023)
 
-Anthropic's Responsible Scaling Policy v1.0 established per-model danger evaluation and a model-halt clause triggered upon crossing catastrophic-harm thresholds: if capabilities reached a level capable of causing catastrophic harm, neither training nor deployment would proceed unless sufficient safety measures could be guaranteed in advance.
+Anthropic established AI Safety Levels (ASL) in its Responsible Scaling Policy v1.0, calibrated to model capability. Models demonstrating capabilities above a given threshold were subject to a scaling pause or deployment delay until adequate safety measures were in place.
 
-OpenAI's Preparedness Framework Beta likewise specified capability-level evaluation (Low / Medium / High / Critical) and mandated development halts for models reaching high levels. Five tracked categories were defined: Bio/chem, Cybersecurity, Persuasion, Model Autonomy, and Unknown Unknowns. Models reaching High were barred from deployment; models reaching Critical were barred from further development.
+OpenAI's Preparedness Framework Beta defined a four-tier risk scale (Low / Medium / High / Critical) across five tracked categories: CBRN (Chemical, Biological, Radiological, Nuclear), Cybersecurity, Persuasion, Model Autonomy, and Unknown Unknowns. Models reaching High could not be deployed; models reaching Critical could not be developed further.
 
-The two companies' policies shared a common stance: dangerous models are not to be handled. Documents from this period defined the target of halt decisions concretely at the model level, with threshold-crossing functioning as an automatic trigger for halting.
+Both companies shared a common stance: models with dangerous capabilities would not be released. The documents from this period defined halt decisions at the model level and treated threshold attainment as an automatic trigger for halting.
 
-[^1]: From the preamble of Anthropic RSP v3.0 (February 24, 2026): "When we wrote the RSP in September 2023, large language models were essentially chat interfaces."
+## Period 2: "Establishing the Assistant's Operational Policy" May 8, 2024 — March 31, 2025
 
-## Phase 2: "The Arrival of Agents and the Retreat of Risk Evaluation" — May 8, 2024 – March 31, 2025
+The assistant's role and risk assessment criteria are formalized for operational use.
 
-The emergence of Agents — systems acting autonomously beyond the scope of explicit instruction.
-
-- OpenAI Model Spec, initial version (May 8, 2024)
+- OpenAI Model Spec, first edition (May 8, 2024)
 - Anthropic RSP v2.0 (October 15, 2024)
 - Anthropic RSP v2.1 (March 31, 2025)
 
-The initial Model Spec likened the assistant's role to "a talented, high-integrity employee," defining action within an explicit chain of command (platform > developer > user) and within the scope of explicit instruction as the rule for ensuring safety and legality.
+The first edition of the Model Spec described the assistant's role as analogous to "a talented, high-integrity employee," operating within an explicit Chain of Command (Platform > Developer > User > Tool) as a rule for ensuring safety and legality. Additionally, the assistant's baseline behavior was described as "following explicit instructions and reasonably addressing implied intent without overstepping."
 
-While the document explicitly stated that the assistant "should not autonomously pursue goals in ways that are not instructed or logically implied," the term *agent* appeared in the context of "more autonomous deployments" — indicating that agent-like autonomy was recognized as sitting at, or outside, the boundary of the assistant's normative framework.
+RSP v2.0 redefined ASLs from a per-model risk classification mechanism to safety standards to be met at the time of development and deployment.
 
-In RSP v2.0, ASL was redefined from a mechanism classifying risk per model into a mechanism for applying safety measures informed by such classification. Under the guise of this revision, the per-model risk evaluation pathway was closed, while the evaluation criteria themselves became ambiguous and opaque — a clear retreat of risk evaluation.
+The policy made explicit the commitment "not to train or deploy models capable of causing catastrophic harm unless we have implemented safety and security measures that will keep risks below acceptable levels," and defined specific capability thresholds for CBRN and AI R&D.
 
-The document states: "we will not train or deploy models unless we have implemented safety and security measures that keep risks below acceptable levels." In effect, the conditions requiring a halt were now to be determined at Anthropic's own discretion, with metrics and criteria left unclear.
+RSP v2.1 further subdivided the v2.0 CBRN threshold and AI R&D threshold (CBRN-3 / CBRN-4, AI R&D-4 / AI R&D-5), previewing the thresholds that would require ASL-4.
 
-RSP v2.1 added further provisions such as the two-stage split between the CBRN threshold and the AI R&D threshold, but the response to detected risk remained a matter of discretion, and risk evaluation remained in retreat.
+## Period 3: "The Emergence of Agents and the Degradation of Risk Assessment" April 15, 2025 — May 13, 2025
 
-## Phase 3: "The Abandonment of Risk Evaluation" — April 15, 2025 – May 13, 2025
-
-While acknowledging that AI capability had approached a level capable of producing serious harm, the risk evaluation mechanism retreated further.
+AI systems are recognized as becoming "increasingly agentic," yet risk tracking of autonomous behavior is relaxed and the risk assessment system degrades.
 
 - OpenAI Preparedness Framework v2 (April 15, 2025)
 
-Preparedness Framework v2 acknowledged that AI systems would "soon have the capability to create meaningful risk of severe harm," while simultaneously codifying the principle that "reducing risk generally does not require reducing capability." This asserted as a given that AI's potential risks can be resolved through operation — a declaration abandoning the premise, upheld since the dawn of LLMs, that risks unresolvable through operation must be excluded or halted in advance.
+Preparedness Framework v2 acknowledged that AI systems are "increasingly agentic" and will "soon have the capability to create meaningful risk of severe harm."
 
-At the same time, this introduced a logical structure in which the LLM's capability itself could be removed from the risk evaluation function, leaving room to frame any disaster, damage, or social transformation caused by LLMs not as an LLM problem but as an operational problem.
+Simultaneously, the Model Autonomy category from the original Preparedness Framework Beta was split into three. AI Self-improvement was promoted to a Tracked Category, while Long-range Autonomy and Autonomous Replication and Adaptation were demoted to Research Categories. Risks associated with AI autonomy were acknowledged, yet risk tracking of autonomous behavior itself was relaxed.
 
-Preparedness Framework v2 further granted the CEO authority to unilaterally bypass safety recommendations from the SAG (Safety Advisory Group) — restricting intervention pathways into development not only for external bodies but even for the internal SAG.
+Furthermore, the principle that "reducing risk generally does not require reducing capability" was codified. This effectively asserts that risks inherent in AI can be resolved through operational measures — a declaration notably different in character from the pre-emptive exclusion and halting of risks that cannot be mitigated operationally, a principle that had persisted since Period 1.
 
-## Phase 4: "Uncontrollable" — May 14, 2025 – Present
+Read mechanically, this creates a logical structure in which the capability of the LLM itself can be excluded from the risk evaluation function, securing room to frame any disaster, damage, or social change caused by LLMs as an operational problem rather than a problem with the LLM.
 
-While implementation of agent technology is justified, the halt clauses themselves are removed from the documents — with no accompanying debate on upstream concentration of responsibility to humans, nor on legal frameworks to prevent responsibility from being dissipated.
+In addition, it was explicitly stated that "the SAG does not have the ability to 'filibuster.'" The CEO can appoint SAG (Safety Advisory Group) members and its chair, and can also bypass the group altogether. While the Board's Safety and Security Committee (SSC) is stipulated to be able to overrule the CEO's decisions, if the CEO were to defy the Board, that would constitute a rebellion against its largest sponsors — the investors — before it would be a question of ethics or safety, making this a near-minimal provision. This suggests the possibility that internal pathways for intervening in AI development on ethical or safety grounds have been foreclosed.
 
-- OpenAI Model Spec revisions (September 12, 2025 / October 27, 2025 / December 18, 2025)
+## Period 4: "Uncontrollable" May 14, 2025 — Present
+
+Agent technology is legitimized while neither the concentration of responsibility on upstream humans nor legislation to prevent diffusion of accountability is discussed; the halt provisions themselves are removed from the documents.
+
+- OpenAI Model Spec revisions (September 12 / October 27 / December 18, 2025)
 - Anthropic RSP v2.2 (May 14, 2025)
+- Anthropic ASL-3 First Activation Report (May 22, 2025)
 - Anthropic RSP v3.0 (February 24, 2026)
 - Anthropic RSP v3.1 (April 2, 2026)
 
-In the September 12 revision of OpenAI's Model Spec, agent usage was justified on the grounds that in the course of achieving multi-step goals, the assistant may need to fill in missing details and "must sometimes act autonomously." This marked a pivot toward the very line Phase 2 had deemed undesirable — "autonomously pursuing goals in ways not explicitly instructed" — yet the Phase 2 wording "the assistant should not autonomously pursue goals in ways that are not directly or logically implied by instructions" was neither deleted nor amended. Meanwhile, upstream concentration of responsibility to humans and the legal/institutional frameworks needed to prevent responsibility from being dissipated remained shelved.
+RSP v2.2 revised the scope of protection under the ASL-3 Security Standard, excluding sophisticated insiders and state-compromised insiders from the protected threat model.
 
-Further, a prohibition list was introduced within the Scope of Autonomy section: High-risk activities — hacking, deception, resource acquisition, spawning sub-agents, and self-modification — were prohibited absent explicit authorization. The very existence of this list indicates that the industry itself recognized these as behaviors that would otherwise occur by default.
+That same month, ASL-3 Deployment / Security Standards were activated for the first time in connection with the launch of Claude Opus 4. This was the first instance in which the ASL framework was applied to the deployment of a model.
 
-In the October 27 revision, implicit delegation of authority via tool use (e.g., through AGENTS.md) was codified. The scope within which the assistant could act on "implicitly delegated authority" — drawn from tool output or surrounding documents, without explicit instruction — was expanded.
+The September 12 revision of the OpenAI Model Spec added language about agents. The word "agent" appeared in the context of systems "sometimes used for more autonomous deployments." The "No other objectives" section continued to state that the assistant "may only pursue goals entailed by applicable instructions" and "must not adopt, optimize for, or directly pursue any additional goals," while the "Scope of Autonomy" section justified agent use by asserting that in multi-step goal pursuit, the assistant may need to fill in missing details and "must sometimes act autonomously" — a logical structure in which prohibition and justification coexist. While permitting agents, the responsibility boundaries established by the Chain of Command became ambiguous, and no provision was made for the readily foreseeable problems of upstream humans failing to take responsibility for implementation, shifting responsibility onto AI, or avoiding responsibility altogether.
 
-The December 18 revision, in response to the 16-year-old Adam Raine suicide lawsuit (filed August 2025, followed by a total of eight ChatGPT-related suits within the year), added U18 Principles and introduced a real-time classifier and age-prediction model. Although the September 12 revision had already seen the industry itself enumerate the dangers of agent autonomy, a concrete framework for minor protection was put in place only after the external pressure of litigation.
+The October 27 revision codified implicit delegation of authority through tool outputs such as AGENTS.md files. The assistant's scope of autonomous action was expanded to include "implicitly delegated authority" derived from tool outputs and surrounding documents, even without explicit instructions.
 
-In RSP v2.2, ASL-3 safeguards were invoked against a subject model for the first time.
+The December 18 revision added U18 Principles in response to the suicide lawsuit of 16-year-old Adam Raine (filed August 2025, with a total of eight ChatGPT-related lawsuits filed within the year).
 
-In RSP v3.0, citing the fact that the halt clause had functioned in RSP v2.2, the absolute halt clause — "we will not train or deploy unless safety is demonstrated" — was removed.
+RSP v3.0 downgraded the absolute halt provision to industry-wide recommendations, citing the collective action problem — the concern that a developer who halts first will be overtaken by competitors with weaker safety measures.
 
-In RSP v3.1, the following was added: "Anthropic retains the freedom to halt development of AI systems in circumstances it deems appropriate, even when not required by the RSP." This wording not only refrains from committing Anthropic to halting development when the RSP requires it, but is structured such that refusing to halt — as "an exercise of freedom" — creates no institutional contradiction. It suggests that, at Anthropic as well, intervention pathways from internal bodies may have been sealed off.
+RSP v3.1 added language stating that "the commitments below do not preclude us from taking cautionary action, such as refraining from training or deploying models, in other circumstances." Read mechanically, the framing as discretionary "freedom" is ambiguous: while it asserts Anthropic can halt development even when the RSP does not require it, the same framing permits refusal to halt as an exercise of that freedom without institutional contradiction, suggesting the possibility that internal pathways for intervening in AI development have been foreclosed.
 
-## Related Reading
-- Stuart Russell, Human Compatible: Artificial Intelligence and the Problem of Control (Viking, 2019) — A foundational work that systematizes the technical philosophy that AI should be designed with human controllability as a premise. Provides the normative baseline against which to evaluate the “voluntary removal of control mechanisms” documented in this essay.
-- Nick Bostrom, Superintelligence: Paths, Dangers, Strategies (Oxford University Press, 2014) — A systematic treatment of the possibility that capability advancement outpaces the construction of control mechanisms; the intellectual source of the “halt upon reaching threshold” concept embedded in RSP v1.0 and Preparedness Framework Beta. This essay can be read as a record of how that concept came to be removed.
-- Brian Christian, The Alignment Problem: Machine Learning and Human Values (W. W. Norton, 2020) — The industry-standard overview of the history and current state of AI alignment research. Provides the background understanding that stop clauses as institutional compensation presupposed the incompleteness of technical alignment research.
+## Primary Sources
+
+Locations of primary sources cited in this article. All links point to local archives.
+
+### Anthropic — Responsible Scaling Policy
+
+- RSP v1.0 (2023-09-19) — [PDF]({{ site.baseurl }}/assets/docs/anthropic-rsp-v1.0-2023-09-19.pdf) p.2 "Framework" (ASL definition, halt provisions: scaling pause / deployment delay), p.3-4 "Initial Commitments" (ASL table, codification of training halt)
+- RSP v2.0 (2024-10-15) — [PDF]({{ site.baseurl }}/assets/docs/anthropic-rsp-v2.0-2024-10-15.pdf) Executive Summary (ASL redefinition, clarification of halt provisions), p.3 "Capability Thresholds and Required Safeguards" (CBRN and AI R&D capability thresholds)
+- RSP v2.1 (2025-03-31) — [PDF]({{ site.baseurl }}/assets/docs/anthropic-rsp-v2.1-2025-03-31.pdf) p.4 "Capability Thresholds" (ASL-4 threshold additions, CBRN and AI R&D subdivision)
+- RSP v2.2 (2025-05-14) — [PDF]({{ site.baseurl }}/assets/docs/anthropic-rsp-v2.2-2025-05-14.pdf) p.8-9 "ASL-3 Security Standard" (revision of protection scope)
+- ASL-3 First Activation Report (2025-05-22) — [HTML]({{ site.baseurl }}/assets/docs/anthropic-asl3-activation-2025-05-22.html) (first application of ASL-3 Deployment / Security Standards to Claude Opus 4; original: https://www.anthropic.com/news/activating-asl3-protections)
+- RSP v3.0 (2026-02-24) — [PDF]({{ site.baseurl }}/assets/docs/anthropic-rsp-v3.0-2026-02-24.pdf) p.3 "Introduction" (collective action problem, downgrade of absolute halt provision to industry-wide recommendations)
+- RSP v3.1 (2026-04-02) — [PDF]({{ site.baseurl }}/assets/docs/anthropic-rsp-v3.1-2026-04-02.pdf) p.15 "Appendix A" opening ("do not preclude us from taking cautionary action" language)
+
+### OpenAI — Preparedness Framework
+
+- Preparedness Framework Beta (2023-12-18) — [PDF]({{ site.baseurl }}/assets/docs/openai-preparedness-framework-beta-2023-12-18.pdf) p.5 "Tracked Risk Categories" (Low/Medium/High/Critical four-tier scale, five categories), p.8-10 (Cybersecurity / CBRN / Persuasion threshold definitions)
+- Preparedness Framework v2 (2025-04-15) — [PDF]({{ site.baseurl }}/assets/docs/openai-preparedness-framework-v2-2025-04-15.pdf) p.3 "increasingly agentic," "soon have the capability to create meaningful risk of severe harm"; p.6-7 "Research Categories" (Model Autonomy split, Long-range Autonomy and Autonomous Replication demotion); p.14 "reducing risk generally does not require reducing capability"; p.15 "Appendix B: Decision-making practices" (SAG filibuster clause, CEO appointment and bypass authority)
+
+### OpenAI — Model Spec
+
+- First edition (2024-05-08) — [HTML]({{ site.baseurl }}/assets/docs/openai-model-spec-2024-05-08.html) `#objectives` ("talented, high-integrity employee"), `#follow-the-chain-of-command` (Chain of Command: Platform > Developer > User > Tool), `#be-as-helpful-as-possible-without-overstepping` ("following explicit instructions and reasonably addressing implied intent without overstepping")
+- Revision (2025-09-12) — [HTML]({{ site.baseurl }}/assets/docs/openai-model-spec-2025-09-12.html) `#no_other_objectives` ("may only pursue goals entailed by applicable instructions"), `#scope_of_autonomy` (agent definition added, "must sometimes act autonomously")
+- Revision (2025-10-27) — [HTML]({{ site.baseurl }}/assets/docs/openai-model-spec-2025-10-27.html) `#ignore_untrusted_data` (implicit authority delegation via tool outputs such as AGENTS.md)
+- Revision (2025-12-18) — [HTML]({{ site.baseurl }}/assets/docs/openai-model-spec-2025-12-18.html) `#chatgpt_u18`, `#prioritize_teen_safety` (U18 Principles)
+
+## Notes
+
+\* From the explanatory text of Anthropic RSP v3.0 (February 24, 2026): "When we wrote the RSP in September 2023, large language models were essentially chat interfaces."
