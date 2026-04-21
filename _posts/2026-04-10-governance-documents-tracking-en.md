@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tracking Governance Documents at OpenAI and Anthropic: 2023-2026"
+title: "Tracking Governance Documents of Major AI Vendors: 2023-2026"
 description: A chronological record of RSP, Model Spec, and Preparedness Framework revisions, tracing the trajectory of governance degradation from primary sources until the removal of halt provisions.
 permalink: /en/archives/2026/04/10/governance-documents-tracking/
 lang: en

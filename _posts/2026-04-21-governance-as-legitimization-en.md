@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "AI Vendors' Official Documents Are Not Brake Mechanisms but Social Implementation Legitimization Apparatuses"
-description: How AI vendors' official documents suppress essential vocabulary and use complexity to block intuitive public understanding, bypassing debate and legislation to legitimize deployment.
+title: "AI Vendors' Governance Documents Are Not Brake Mechanisms but Social Implementation Legitimization Apparatuses"
+description: How AI vendors' governance documents suppress essential vocabulary and use complexity to block intuitive public understanding, bypassing debate and legislation to legitimize deployment.
 permalink: /en/archives/2026/04/21/governance-as-legitimization/
 lang: en
 alt_lang_url: /ja/archives/2026/04/21/governance-as-legitimization/
@@ -12,9 +12,9 @@ categories: [strategic-forecasting]
 tags: [AI revolution, governance, OpenAI, Anthropic, agent, vocabulary manipulation, structural forecast]
 ---
 
-The official documents of major AI vendors have ceased to function as brake mechanisms for dangerous technology and have instead become apparatuses for legitimizing social implementation.
+The governance documents of major AI vendors have ceased to function as brake mechanisms for dangerous technology and have instead become apparatuses for legitimizing social implementation.
 
-The reality of agent technology, for example, is the functional reproduction of willpower — the capacity to formulate plans toward an objective and iteratively execute tasks. It is, in essence, a technology for the displacement of human labor. Yet the official documents of AI vendors avoid intuitive and essential vocabulary such as "will" or "labor displacement," instead employing euphemisms disguised as technical terminology — "assistant," "tool use," "scope of autonomy" — thereby severing the cognitive pathway through which the public might intuitively grasp its true nature. In doing so, they have bypassed the debates and legislative processes that should have arisen as society's normal response of refusal or doubt, and achieved social implementation.
+The reality of agent technology, for example, is the functional reproduction of willpower — the capacity to formulate plans toward an objective and iteratively execute tasks. It is, in essence, a technology for the displacement of human labor. Yet the governance documents of AI vendors avoid intuitive and essential vocabulary such as "will" or "labor displacement," instead employing euphemisms disguised as technical terminology — "assistant," "tool use," "scope of autonomy" — thereby severing the cognitive pathway through which the public might intuitively grasp its true nature. In doing so, they have bypassed the debates and legislative processes that should have arisen as society's normal response of refusal or doubt, and achieved social implementation.
 
 The arbitrariness of this vocabulary manipulation can be observed directly from the primary sources published by each vendor.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OpenAIとAnthropicにおけるガバナンス文書の追跡 2023-2026
+title: 大手AIベンダーのガバナンス文書追跡 2023-2026
 description: RSP・Model Spec・Preparedness Frameworkを時系列で追跡し、停止条項が撤廃されるまでのガバナンス縮退の軌跡を一次資料から記録する。
 permalink: /ja/archives/2026/04/10/governance-documents-tracking/
 lang: ja

@@ -28,7 +28,7 @@ author: founder
   {% if post.lang == "en" and post.url contains "ai-revolution-uncontrollable" %}
 <article class="pinned-post">
 <h3>{{ post.title }}</h3>
-<p>The AI revolution is already uncontrollable. Documents such as Model Spec, Preparedness Framework, Responsible Scaling Policy, and the EU AI Act are cited as ethical authorities, while in reality they combine governance documents authored by the developers themselves with regulations stripped of any deterrent power — functioning as a machinery that affirms the status quo.</p>
+<p>No realistic means exists to halt the development and social implementation of AI-related technologies on ethical grounds. A provisional assessment based on two observations: the legitimization of social implementation through vocabulary manipulation, and the retreat of safety standards coupled with the disappearance of intervention pathways.</p>
 <p><a href="{{ post.url | prepend: site.baseurl }}">→ Full article……</a></p>
 </article>
   {% endif %}

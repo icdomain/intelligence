@@ -28,7 +28,7 @@ author: founder
   {% if post.lang == "ja" and post.url contains "ai-revolution-uncontrollable" %}
 <article class="pinned-post">
 <h3>{{ post.title }}</h3>
-<p>AI革命はすでにアンコントローラブルである。Model SpecやPreparedness Framework、Responsible Scaling Policy、EU AI Actといった文書群は、倫理的権威として引用される一方、その実態は開発当事者自らが編集したガバナンス文書と、抑止能力を欠いた規制の組み合わせであり、事実上の現状追認機構である。</p>
+<p>AI関連技術の開発・社会実装を倫理的観点から止める現実的手段は存在しない。語彙操作による社会実装の正当化と、安全基準の後退・介入経路の消滅という2つの観測に基づく暫定的評価。</p>
 <p><a href="{{ post.url | prepend: site.baseurl }}">→詳細記事へ……</a></p>
 </article>
   {% endif %}
